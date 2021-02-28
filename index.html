@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Stanislau Tavyryn</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <img src="/img/icon.png" alt="My avatar" class="header__avatar">
+            <img src="img/icon.png" alt="My avatar" class="header__avatar">
             <h1 class="header__title">Stanislau Tavyryn</h1>
         </div>
     </header>
@@ -64,15 +64,17 @@
                 <h2 class="about__title">
                     Code examples
                 </h2>
+                <pre>
                 <code class="about__code">
-                    <pre>
+                    
                         let sum = 0;
-                        for (let i = 0; i<=100; i++){
+                        for (let i = 0; i&lt;=100; i++){
                             sum = sum + i;
                         }
                         console.log(sum);
-                    </pre>
+                    
                 </code>
+                </pre>
                 <h2 class="about__title">
                     Work Experience
                 </h2>
@@ -86,6 +88,8 @@
     <footer>
         <div class="container">
             <section class="contacts">
+                <h2>Contacts:</h2>
+                <div class="contacts_wrapper">
                 <p class="footer__text">
                     Phone: <a href="tel:+375298405192" class="contacts__tel">+375298405192</a>
                 </p>
@@ -95,6 +99,7 @@
                 <p class="footer__text">
                     telegram: @stnslvtvrn
                 </p>
+            </div>
             </section>
         </div>
     </footer>
