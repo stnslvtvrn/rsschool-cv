@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
+
+
 
 .container {
     max-width: 1170px;
@@ -9,7 +12,12 @@
     margin: 0 auto;
 }
 
-.contacts_wrapper {
+.contacts__list {
     display: flex;
     justify-content: space-between;
+}
+
+pre {
+    border: 1px solid #000;
+    max-width: 50%;
 }
