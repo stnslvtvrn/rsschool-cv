@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+
+
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+pre {
+    border: 1px solid #000;
+    max-width: 50%;
+}
